@@ -33,8 +33,18 @@ let myObj = {
     age : 19
 }  //// object
 
-const myFunction = function(){
+const myFunction = function(){ 
     console.log("hello");
 }
 
 console.log(typeof heros);
+
+
+
+
+
+// memory
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap( non primitive)
+
