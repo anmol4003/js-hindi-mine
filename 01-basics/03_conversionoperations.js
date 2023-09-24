@@ -1,9 +1,16 @@
-let score = "33abh" // if we take "null" then we get 0 in (valueInNumber), 
-//and also if we take "undefined" then we get "nan" 
+// <<<<<<< HEAD
+// let score = 33
+// =======
+// let score = "33abh" // if we take "null" then we get 0 in (valueInNumber), 
+// //and also if we take "undefined" then we get "nan" 
+// >>>>>>> 74755d6baa7a5a07c237e4017c0838d9004e8e3e
 
+// <<<<<<< HEAD
 // console.log(typeof score);
+// =======
+// // console.log(typeof score);
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -64,4 +71,4 @@ num1 = num2 = num3 = 2+2
 
 let gameCounter = 100
 gameCounter++;//prefix and postfix counter => ++abc   , abc++
-console.log(gameCounter);
+console.log(gameCounter)
