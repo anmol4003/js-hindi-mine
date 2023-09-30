@@ -27,6 +27,6 @@ console.log(newStringOne);
 console.log(newStringOne.trim()); // it trims the extra space
 
 const url = "https://search.yahoo.com/anmol%20verma"
-console.log(url.replace('%20','-'))
-console.log(url.includes('anmol'))
-console.log(gameName.split('-'))
+console.log(url.replace('%20','-')) // replace
+console.log(url.includes('anmol')) // true or false
+console.log(gameName.split('-')) 
