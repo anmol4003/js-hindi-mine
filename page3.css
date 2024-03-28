@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Norican&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: black;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+   
+ 
+ }
+ 
+ .nav-img{
+  
+  margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ .nav-img img{
+    width: 160vh;
+ }
+ .nav{
+    
+    width: 100%;
+    height: 6vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .nav  a{
+    text-decoration: none;
+ }
+
+ .nav i{
+    color: black;
+    font-size: 5vh;
+   
+ }
+ #nav2{
+    margin-bottom: 8vh;
+    margin-right: 4vh;
+    color: rgb(73, 73, 73);
+ }
+ #nav1{
+    margin-bottom: 8vh;
+    transform: rotate(90deg);
+    margin-left: 4vh;
+    color: rgb(73, 73, 73);
+ }
+.nav1{
+    width: 100%;
+    height: 6vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    color: black;
+}
+.nav1  a{
+    
+    text-decoration: none;
+    color: black;
+ }
+.nav1 h4{
+    text-transform: uppercase;
+    color: black;
+    font-size: 2vh;
+    font-weight: 400;
+   margin: 0 -16vh;
+    margin-bottom: 17vh;
+}
+ .page1{
+   min-height: 100vh;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+ }
+
+ .sidebar1{
+   
+   width: 100%;
+   height: 40vh;
+  display: flex;
+  
+   margin-top: 6.5vh;
+   margin-left: 12vh;
+   
+ }
+ .sidebar{
+ display: grid;
+  
+ }
+
+ .sidebar1 img{
+   width: 10vh;
+   margin-top: 0.5vh;
+   height: 14vh;
+   
+ }
+.mainimg{
+ 
+   height: 80vh;
+ 
+  margin-right: 4vh;
+   margin-top: 4vh;
+}
+.mainimg img{
+   width: 60vh;
+   height: 80vh;
+}
+.details{
+   display: grid;
+   
+   height: 80vh;
+   margin-top: 4vh;
+  margin-right: 25vh;
+}
+.details h1{
+  text-transform: uppercase;
+  font-weight: 400;
+  
+}
+.det .details h3{
+  margin-top: -7vh;
+  height: 3vh;
+  text-transform: uppercase;
+}
+.details ul{
+  margin-left: 2vh;
+  margin-top: -5vh;
+  height: 5vh;
+}
+.btn {
+  
+  height: 5.2vh;
+  margin-top: -7svh;
+}
+.btn button{
+  height: 5vh;
+  width: 8vw;
+  background-color: rgba(255, 255, 255, 0.329);
+  border: 2px solid rgb(82, 82, 82);
+  text-transform: capitalize;
+  font-size: 2vh;
+  font-weight: 600;
+  font-family: "Baskervville", serif;
+}
+.details2{
+   display: flex;
+   gap: 2.5vh;
+  margin-top: -1vh;
+  
+   height: 2vh;
+}
+
+  .button.clicked {
+    border-radius: 50%; /* Change border radius when button is clicked */
+}
+
+.para{
+   margin-bottom: 8vh;
+  
+   width: 40vw;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+#para{
+  border: 2px solid gray;
+}
+.details3{
+  position: absolute;
+}
+.details3 .cost{
+ margin-left: 31vw;
+ margin-top: -79vh;
+ text-align: center;
+}
+.cost h1{
+   font-size: 4vh;
+   font-weight: 500;
+}
+.cost h4{
+   font-size:0.8vh ;
+}
+ @media only screen and (max-width:455px) {
+   
+  .nav-img img{
+    width: 100%;
+}
+.nav-img {
+    width:100%;
+   
+}
+.nav i{
+    font-size: 2vh;
+    
+}
+.nav1 h4{
+    text-transform: uppercase;
+    color: black;
+  font-size: 1.2vh;
+ 
+  
+  
+}
+.nav1{
+  
+  display: flex;
+  gap: 12vh;
+  
+  
+}
+ 
+
+ .sidebar{
+   gap: 2vh;
+margin-left: -8vh;
+   height: 4vh;
+   display: flex;
+   margin-top: 50vh;
+  
+   
+ }
+ .sidebar img{
+  height: 8vh;
+ }
+ .page1{
+  
+  
+   height: 200vh;
+ }
+ .sidebar img{
+   width: 80%;
+  
+  }
+ .mainimg{
+   
+   
+   height: 50vh;
+  margin-right: 10vh;
+   
+  background-color: black;
+   
+ }
+ .mainimg img{
+   height: 100%;
+   width: 60vw;
+   margin-left: -5vh;
+ }
+ .det{
+   position: absolute;
+  width: 100%;
+  min-height: 200vh;
+   align-items: center;
+   justify-content: center;
+   margin-top: 80vh;
+  
+   text-align: center;
+   
+  
+ }
+ .details{
+  margin-left: 11vh;
+  
+  height: 30vh;
+  width: 60vw;
+   
+   margin-top: 0vh;
+ }
+ .details h1{
+  margin-bottom: 7vh;
+ }
+ .details h3{
+      margin-top: 2vh;
+      font-size: 2vh;
+ }
+
+.btn button{
+  height: 5vh;
+  width: 28vw;
+
+  background-color: rgba(255, 255, 255, 0.329);
+  border: 2px solid rgb(82, 82, 82);
+  text-transform: capitalize;
+  font-size: 2vh;
+  font-weight: 600;
+  font-family: "Baskervville", serif;
+}
+ .btn{
+   margin-top: 2vh;
+   
+ }
+ .det ul li{
+   margin-top: 2vh;
+ }
+ .det ul{
+   margin-top: 2vh;
+ }
+ .details2{
+   display: grid;
+  
+   margin-top: 9vh;
+ }
+ .para{
+ margin-top: 20vh;
+ margin-right: -8vh;
+
+ width: 35vh;
+
+
+}
+#para{
+  margin-left: -2vh;
+}
+.details3{
+   margin-top: 38vh;
+   margin-left: 5vw;
+   
+}
+}

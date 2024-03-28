@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Norican&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #fff;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+   
+ 
+ }
+ 
+ .nav-img{
+  
+  margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ .nav-img img{
+    width: 160vh;
+ }
+ .nav{
+    
+    width: 100%;
+    height: 6vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .nav  a{
+    text-decoration: none;
+ }
+
+ .nav i{
+    color: black;
+    font-size: 5vh;
+   
+ }
+ #nav2{
+    margin-bottom: 8vh;
+    margin-right: 4vh;
+    color: rgb(73, 73, 73);
+ }
+ #nav1{
+    margin-bottom: 8vh;
+    transform: rotate(90deg);
+    margin-left: 4vh;
+    color: rgb(73, 73, 73);
+ }
+.nav1{
+    width: 100%;
+    height: 6vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    color: black;
+}
+.nav1  a{
+    
+    text-decoration: none;
+    color: black;
+ }
+.nav1 h4{
+    text-transform: uppercase;
+    color: black;
+    font-size: 2vh;
+    font-weight: 400;
+   margin: 0 -16vh;
+    margin-bottom: 17vh;
+}
+ .nav2{
+    background-color: red;
+    height: 2vh;
+    width: 100%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+ }
+ .nav2 h4{
+    margin-top: 0.25vh;
+    z-index: 99;
+ }
+ .page1{
+    min-height: 95vh;
+   
+   
+    
+   
+ }
+.gallery{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+   z-index: 10;
+    
+}
+.gallery a{
+    text-decoration: none;
+    cursor: default;
+}
+.gallery img{
+    height: 80vh;
+    z-index: 10;
+  
+margin-top: 3vh;
+    aspect-ratio: 16/9;
+}
+@keyframes trans {
+    form{
+
+    }
+}
+.btnnn{
+    position: absolute;
+   margin-left: 85vh;
+   z-index: 99;
+  
+   margin-top: 70vh;
+   height: 6vh;
+}
+.btnnn  a{
+    text-decoration: none;
+}
+ button{
+    z-index: 99;
+    height:100%;
+    width: 13vw;
+   
+    background-color: rgba(255, 255, 255, 0.274);
+    margin-bottom: 24px;
+    color: rgb(224, 224, 224);
+    border: none;
+   font-size: 3.9vh;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-family: "Baskervville", serif;
+   transition: all ease 0.15s;
+}
+.btnnn button:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.726);
+    font-size:3.5vh ;
+    cursor: pointer;
+}
+ .content{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    gap: 90px;
+    border-bottom:2px solid black ;
+    
+ }
+
+ .content img{
+    height: 55vh;
+   
+   
+
+ }
+ .content .btn{
+    margin-bottom: 6vh;
+ }
+ .content .btn button{
+    border: none;
+    width: 6vh;
+    font-size: 2.5vh;   
+   font-family: "Baskervville", serif;
+    margin-right: 2vh;
+    transition: all ease 0.4s;
+    text-align: center    ;
+ }
+.content .btn button a{
+    text-decoration: none;
+}
+.content .btn button:hover{
+ font-size: 2.3vh;
+ border: none;
+ margin-right: 1.9vh;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.btn img{
+    border-radius: 25px;
+}
+.btn button{
+    height: 3vh;
+    width: 12vh;
+    margin-top: 20px;
+    color: black;
+    font-size: 2vh;
+    font-weight: 600;
+   border: 2px solid black;
+    
+}
+.bottom{
+    margin-top: 10vh;
+    height: 50vh;
+}
+.btmlogo img{
+    width: 30vw;
+    margin-top: 3vh;
+}
+.btmmain{
+    display: flex;
+   
+    height: 100%;
+    justify-content: space-evenly;
+    margin-top: 0%;
+}
+.btmmain1{
+margin-top: 3vh;
+}
+.btmmain2{
+    margin-top: 3vh;
+    
+    }
+    .btmmain3{
+        margin-top: 3vh;
+        }
+
+ .main2 h1{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 4vh;
+ }       
+ .main2 h4{
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: gray;
+ }
+ .main3 h1{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 4vh;
+ }       
+ .main3 h4{
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: gray;
+ }
+ .btmicons i{
+    font-size: 4vh;
+    color: black;
+    margin-top: 1.8vh;
+ }
+.btmbtn{
+    display: flex;
+    margin-left: -15vh;
+   
+    margin-top: 2vh;
+}
+.btmbtn input{
+    border: 2px solid black;
+    background-color: white;
+    text-transform: capitalize;
+    height: 5vh;
+    width: 15vw;
+    color: black;
+    text-align: center;
+   
+}
+.btmbtn button{
+    background-color: black;
+    height: 5vh;
+   
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 500;
+    width: 12vw;
+    font-size: 3vh;
+}
+ .main1{
+display: grid;
+margin-left: -15vh;
+width: 30vw;
+height: 34vh;
+
+ }
+ .main1 h4{
+   
+    height: 4vh;
+    width: 20vw;
+    color: black;
+ }
+ .main1 h2{
+    color: black;
+ }
+ .main1 h3{
+    color: black;
+    margin-top: -5vh;
+ }
+ @media only screen and (max-width:500px) {
+   
+    .nav-img img{
+        width: 100%;
+    }
+    .nav-img {
+        width:100%;
+       
+    }
+    .nav i{
+        font-size: 2vh;
+    }
+    .nav1 h4{
+        text-transform: uppercase;
+        color: black;
+      font-size: 1.2vh;
+     
+      
+      
+    }
+    .nav1{
+      
+      display: flex;
+      gap: 12vh;
+      
+    }
+    .nav2{
+        background-color: red;
+      height: 8px;
+      margin-top: -1vh;
+     }
+     .nav2 h4{
+        font-size: 5px;
+        z-index: 99;
+        margin-top: -0.2vh;
+     }
+     .gallery a{
+        text-decoration: none;
+        cursor: default;
+    }
+    .gallery img{
+        height: 80vh;
+        z-index: 10;
+      
+    margin-top: 0.2vh;
+        aspect-ratio: 4/6;
+    }
+    .btnnn{
+        position: absolute;
+       margin-left: 23vh;
+       z-index: 99;
+      
+       margin-top: 70vh;
+       height: 6vh;
+       
+       width: 15vh;  
+    }
+    button{
+        z-index: 99;
+        height:100%;
+        width: 100%;
+       
+        background-color: rgba(255, 255, 255, 0.274);
+        margin-bottom: 24px;
+        color: rgb(224, 224, 224);
+        border: none;
+       font-size: 1.5vh;
+       text-transform: uppercase;
+       font-weight: 700;
+       font-family: "Baskervville", serif;
+       transition: all ease 0.15s;
+    }
+    .btnnn button:hover{
+        box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.726);
+        font-size:1.8vh ;
+        cursor: pointer;
+    }
+    .content{
+ 
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -8vh;
+       
+        gap: 10px;
+        
+        
+     }
+
+     .bottom{
+        margin-top: 10vh;
+        height: 120vh;
+        align-items: center;
+        display: flex;
+        flex: none;
+        justify-content: center;
+        flex-direction: column;
+width: 100%;
+text-align: center;
+    }
+    .btmlogo img{
+        width: 70vw;
+        margin-top: 3vh;
+       
+    } 
+    .btmmain{
+        display: grid;
+       
+        height: 100%;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .btmbtn{
+        display: flex;
+    
+      justify-content: center;
+      margin-left: 3vh;
+    }
+    .btmbtn input{
+       
+        background-color: white;
+        text-transform: capitalize;
+        height: 5vh;
+        width: 60vw;
+        color: black;
+        text-align: center;
+       
+    }
+    .btmbtn button{
+       
+        height: 5vh;
+       
+        color: white;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-weight: 500;
+        width: 20vw;
+        font-size: 1.5vh;
+    }
+    .btmmain1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main1{
+        margin-left: -27vh;
+    }
+    .main1 h4{
+   
+        height: 2vh;
+        width: 70vw;
+        font-size: 1.2vh;
+     margin-top: -2vh;
+     
+        color: black;
+     }
+     .main1 h2{
+     height: 4vh;
+     width: 80vw;
+     margin-top: -5vh;
+        color: black;
+        font-size: 3vh;
+     }
+     .main1 h3{
+       text-transform: capitalize;
+        color: black;
+        margin-top: -8vh;
+    font-size: 1.5vh;
+     }
+     .btmmain2{
+        margin-top: -18vh;
+     }
+    }
+  
+
+
+
